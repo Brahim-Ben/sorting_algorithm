@@ -21,7 +21,6 @@ typedef struct node {
 l_list *ft_lstnew(void *content)
 {
     l_list *head;
-    head ->
     head = (l_list *)malloc(sizeof(l_list));
     head->content1 = content;
     head->next = NULL;
